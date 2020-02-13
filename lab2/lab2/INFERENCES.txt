@@ -1,0 +1,4 @@
+In the Bug2 part, the fitted line may not reflect the exact shape of the obstacle and the robot
+may come too close to the wall, so it has to keep rotating a small angle each time this happens.
+
+Another thing is when the robot wallfollows a bit and comes parallel to another wall it has to move along it as by definition of Bug2 the robot has to be constantly in one of the 2 states wallfollow or goalseek and in this case the robot isnt on the m-line so it moves along the wall till it reaches it. 
